@@ -50,7 +50,8 @@ nodes:
     dns:
     - 192.0.2.13
     mtu: 1500
-  ntp: 192.0.2.13
+  ntp0: 192.0.2.13
+  ntp1: 192.0.2.13
   templateIF: ifcfg-template.j2
   templateChrony: chrony.conf.j2
   templateAppend: append-template.j2
@@ -67,7 +68,8 @@ nodes:
     dns:
     - 192.0.2.13
     mtu: 1500
-  ntp: 192.0.2.13
+  ntp0: 192.0.2.13
+  ntp1: 192.0.2.13
   templateIF: ifcfg-template.j2
   templateChrony: chrony.conf.j2
   templateAppend: append-template.j2
@@ -84,7 +86,8 @@ nodes:
     dns:
     - 192.0.2.13
     mtu: 1500
-  ntp: 192.0.2.13
+  ntp0: 192.0.2.13
+  ntp1: 192.0.2.13
   templateIF: ifcfg-template.j2
   templateChrony: chrony.conf.j2
   templateAppend: append-template.j2
